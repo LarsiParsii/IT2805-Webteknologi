@@ -1,0 +1,7 @@
+1. Use #id when you want to style a unique element on a page, and use .class when you want to style multiple elements with the same style rules.
+
+Example: Use #header to style a unique page header and use .button to style all buttons with the same characteristics.
+
+2. RGBA stands for Red, Green, Blue, and Alpha. You can express any color by combining values for red, green, and blue (each ranging from 0-255), and you can adjust the opacity of the color using the alpha channel (a value between 0-1, where 0 is completely transparent and 1 is completely opaque).
+
+3. One possible solution is "article p", as this will select all p tags that are inside an article tag, no matter how deeply nested they are. Another possible solution that will work in this case is "article > p", which will select all p tags that are direct children of an article tag. If there would be other tags between the article and the p tag, this selector would not work, however.
