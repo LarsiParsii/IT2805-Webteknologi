@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	background-color: lightblue;
+	height: 100px;
+	margin-top: auto;
+}
+
+ul {
+	list-style: square;
+}
+
+ul ul li:last-child {
+	color: red;
+}
