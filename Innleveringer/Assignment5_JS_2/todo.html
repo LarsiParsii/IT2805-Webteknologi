@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo</title>
+
+	<link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+	<h1>Todo list</h1>
+	<div id="new-todo__container">
+		<input type="text" name="new-todo__text" id="new-todo__text" placeholder="What to do next?" autofocus>
+		<button type="button" id="new-todo__add-button">Add to list</button>
+	</div>
+
+	<ul id="todo__list">
+		<!-- Dynamically added items go here -->
+	</ul>
+
+	<output id="progress">
+		<div class="progress__wrapper">
+			<span id="progress__completed"></span> /
+			<span id="progress__total"></span> Completed
+		</div>
+	</output>
+
+	<script src="todo.js"></script>
+</body>
+
+</html>
